@@ -1,1 +1,1 @@
-web: tsc && node index"
+web: tsc && node index
