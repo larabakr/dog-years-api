@@ -7,7 +7,6 @@ var express_1 = __importDefault(require("express"));
 var dotenv_1 = __importDefault(require("dotenv"));
 var app = express_1.default();
 dotenv_1.default.config();
-app.use(express_1.default.static('public'));
 app.use(express_1.default.json());
 var calculateDogYears = function (dogAge) {
     return dogAge * 7;

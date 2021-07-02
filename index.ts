@@ -4,7 +4,6 @@ import dotenv from 'dotenv';
 const app = express();
 dotenv.config();
 
-app.use(express.static('public'));
 app.use(express.json());
 
 const calculateDogYears = (dogAge: number) => {
