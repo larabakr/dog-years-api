@@ -1,9 +1,12 @@
 import express from 'express';
 import dotenv from 'dotenv';
+import cors from 'cors';
 
 const app = express();
 dotenv.config();
 
+app.use(cors());
+app.use(express.static('public'))
 app.use(express.json());
 
 const calculateDogYears = (dogAge: number) => {
