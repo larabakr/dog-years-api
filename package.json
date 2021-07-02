@@ -1,0 +1,19 @@
+{
+  "name": "dog-years-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "yarn add",
+    "start": "tsc index && node index"
+  },
+  "keywords": [],
+  "author": "uwuxia",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.12",
+    "@types/node": "^15.14.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
