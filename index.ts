@@ -1,14 +1,9 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import cors from 'cors';
 
 const app = express();
 dotenv.config();
 
-app.use(cors({
-    origin: "*",
-    methods: ["POST"]
-}));
 app.use(express.static('public'))
 app.use(express.json());
 
